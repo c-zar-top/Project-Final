@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 Champions</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+        <div id="container">
+        <!-- logo -->
+            <a href="#section-id">
+        <div id="logo">HOME</div>
+            </a>
+        ...
+        </div>
+
+        <!-- bio -->
+                          <h2>Sobre Nosotros</h2>
+              <h3>¿Quiénes somos?</h3>
+                <p>Somos una marca que se enfoca en la indumentaria deportiva histórica de los equipos de fútbol y países de Latinoamérica. Buscamos revivir momentos gloriosos e históricos de los clubes, materializando la locura y pasión que hay por este deporte en nuestro continente. Le damos gran importancia a la calidad de nuestros productos, desde el packaging, la tela utilizada, hasta los detalles de confección de la prenda, siendo la misma en sus totalidad, una prenda de primer nivel, cumpliendo con los estándares de calidad exigidos por los consumidores. Además, nuestro principal valor agregado son las alianzas que tenemos con los clubes -o las entidades encargadas- para explotar los derechos de marca. Los productos 2023 Champions son productos oficiales.</p>
+                
+                <p>¿Por qué 2023 Champions?
+                En 2023 Champions vas a encontrar esas piezas históricas de tu equipo, que tantas veces añoraste de niño, y sobre la que viviste y compartiste historias con tu familia y amigos. Una camiseta, una obra de arte; idéntica a la original y con calidad de primer nivel internacional que no vas a encontrar en otro lado. Te llevamos a recordar aquel momento inolvidable de tu equipo, te traemos la historia de tu club.</p>
+                
+               <p> Misión
+                Brindar a nuestros clientes indumentaria histórica de sus clubes, a través de alianzas comerciales con los clubes - o entidades encargadas - haciendo que los productos sean oficiales y de primer nivel.</p>
+                
+                <p>Visión
+                Ser la primera empresa en latinoamérica dedicada exclusivamente a la venta oficial de indumentaria histórica deportiva.</p>
+                
+              <a href="#" class="read-more">Read More</a>
+            ...
+          </div>
+          
+
+<!-- navbar -->
+<div id="navbar">
+    <ul>
+        <li><a href="#">Fifa Stats</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Contact</a></li>
+        <!-- login Button -->
+        <li id="login"><a href="#">Login</a></li>
+    </ul>
+</div>
+
+<!-- home section -->
+<section id="fifa-stats">
+    <div class="container">
+      
+      <div class="video-gallery">
+        <div class="video-item">
+          <a href="https://youtube.com/shorts/WbQG1L3ck10?feature=share">
+            <img src="./Assets/Home/morocco_Portugal.jpg" alt="Morocco Vs. Portugal">
+            <h3>Morocco VS. Portugal</h3>
+          </a>
+        </div>
+        <div class="video-item">
+          <a href="https://youtube.com/shorts/FhqKjTMY7Mk?feature=share">
+            <img src="./Assets/Home/QatarNight.jpg" alt="NightFalls In Qatar">
+            <h3>Qatar at Night Time</h3>
+          </a>
+        </div>
+        <div class="video-item">
+          <a href="https://youtube.com/shorts/9R-Jjz6YCx4?feature=share">
+            <img src="./Assets/Home/world-cup-songs.jpg" alt="FIFA's Songs">
+            <h3>FIFA's Official Songs ever since '98</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const data = {
+        labels: ['K. Kvaratskhelia', 'L. Messi', 'C. Ronaldo'],
+        datasets: [{
+            label: 'Finales FIFA 23',
+            data: [79, 91, 88],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(86, 255, 135, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(86, 255, 135, 1)'
+            ],
+            borderWidth: 1
+        }]
+    };
+
+    const config = {
+        type: 'bar',
+        data: data,
+        options: {}
+    };
+
+    var myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+</script>
+
+  
+<section id="blog">
+    <h2>Our Latest Blogs: </h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="./Assets/Blogs/LMessi.JPG" alt="Blog Leo Messi" />
+        <div class="card-content">
+          <h3>Lionel Messi - 2023 Statistics</h3>
+          <p>Statistics for Football Player Lionel Messi, updated as of Feb 2023, click the link below:</p>
+          <a href="https://www.footballmanagerblog.org/2022/10/fm23-lionel-messi.html">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Assets/Blogs/CRonaldo.jpg" alt="Blog Cristiano Ronaldo" />
+        <div class="card-content">
+          <h3>C. Ronaldo - 2023 Statistics</h3>
+          <p>Statistics for Football Player Cristiano Ronaldo, updated as of Feb 2023, click the link below:</p>
+          <a href="https://www.footballmanagerblog.org/2022/10/fm23-cristiano-ronaldo.html">Read More</a>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="./Assets/Blogs/KKvaratskhelia.jpg" alt="Blog Khvicha Kvaratskhelia" />
+          <div class="card-content">
+            <h3>K. Kvaratskhelia - 2023 Statistics</h3>
+            <p>Statistics for Football Player Khvicha Kvaratskhelia, updated as of Feb 2023, click the link below:</p>
+            <a href="https://www.footballmanagerblog.org/2022/10/fm23-khvicha-kvaratskhelia.html">Read More</a>
+          </div>
+        </div>
+      <div class="card">
+        <img src="./Assets/Blogs/JGvardiol.jpg" alt="Blog Josko Gvardiol" />
+        <div class="card-content">
+          <h3>Josko Gvardiol - 2023 Statistics</h3>
+          <p>Statistics for Football Player Josko Gvardiol, updated as of Feb 2023, click the link below:</p>
+          <a href="https://www.footballmanagerblog.org/2022/02/josko-gvardiol-fm22-wonderkid-review.html">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <!-- news section --> 
+ <!--  <section id="news"> -->
+ <!--    <h2>Breaking News</h2> -->
+    <!-- add content here -->
+ <!--  </section>-->
+  
+  <!-- privacy section -->
+ <!--  <section id="privacy">  -->
+  <!--   <h2>Privacy Policy</h2> -->
+    <!-- add content here -->
+<!--   </section>  -->
+  
+<!-- contact section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fab fa-twitter"></i>
+        <a href="https://twitter.com/2023champions">@2023champions</a>
+      </div>
+      <div class="info-item">
+        <i class="fab fa-facebook-f"></i>
+        <a href="https://facebook.com/2023champions">facebook.com/2023champions</a>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:contact@2023champions.com">contact@2023champions.com</a>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+1(809)555-5525">+1 (809) 555-5525</a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3>Leave a Message</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+      <div class="register">
+        <h3>Register for our Newsletter</h3>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <input type="submit" value="Register">
+        </form>
+      </div>
+    </div>
+  </section>
+  
+
+  <div id="navbar">
+    <ul>
+      <li><a href="#Fifa Stats">Fifa Stats</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li id="login"><a href="#">Login</a></li>
+    </ul>
+  </div>
+  
+
+        <!-- image -->
+        <div id="image">
+            <img src="Assets/Portada/Messi.png" alt="Messi">
+        </div>
+
+        <!-- content -->
+        <div id="content">
+            <h2>Champions!</h2>
+            <h3>QATAR '22</h3>
+        </div>
+
+        <!-- icons -->
+        <div id="icons">
+            <!-- visit => "fontawesome.com" for icons -->
+            <a href="https://www.facebook.com/fifa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/fifa/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/fifa" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/FIFAcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/fifa/?originalSubdomain=ch" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.tiktok.com/@fifaworldcup?lang=es" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <!-- pagination -->
+        <div id="pagination">
+            <!-- left arrow -->
+            <a href="#"><i class="fas fa-angle-left"></i></a>
+            <!-- right arrow -->
+            <a href="#"><i class="fas fa-angle-right"></i></a>
+        </div>
+
+        <!-- lines -->
+        <div id="line1"></div>
+        <div id="line2"></div>
+    </div>
+
+    <div>
+        <section>
+            <a href="https://www.figc.it" target="_blank"></a><img src="Assets/FCs/IT.jpg" alt="Italy Flag"></a>
+            <a href="https://www.cbf.com.br" target="_blank"></a><img src="Assets/FCs/BR.jpg" alt="Brazil Flag"></a>
+            <a href="https://www.fff.fr" target="_blank"></a><img src="Assets/FCs/FR.jpg" alt="France Flag"></a>
+            <a href="https://www.eintracht.de/" target="_blank"></a><img src="Assets/FCs/GR.jpg" alt="Germany Flag"></a>
+            <a href="https://www.afa.com.ar" target="_blank"></a><img src="Assets/FCs/JP.jpg" alt="Japan Flag"></a>
+            <a href="https://www.jfa.jp" target="_blank"></a><img src="Assets/FCs/AR.jpg" alt="Argentina Flag"></a>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <p>&copy; 2023 Champions. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+</body>
+</html>
